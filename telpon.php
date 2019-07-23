@@ -11,8 +11,9 @@ function send($phone){
         curl_close($ch);
                 echo $asw."\n";
 }
-echo "COPYRIGHT ; SGBTEAM\n\n";
-echo "Nomor\nInput : ";
+echo "Created by ; MiSetya\n\n";
+echo "Team : Termux Noob\n\n";
+echo "Nomor target\nMasukin nomornya : ";
 $nomor = trim(fgets(STDIN));
 $execute = send($nomor);
 print $execute;
