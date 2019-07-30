@@ -14,7 +14,7 @@ function send($phone){
 echo "\e[1;92mCreated by ; MiSetya\n\n";
 echo "Team ; Termux Noob\n\n";
 echo "NOTE! Limit 3× telpon setiap 1 nomor\n\n";
-echo "Nomor target\nMasukin nomornya (ex;628xxx) : ";
+echo "Nomor target\nMasukin nomornya (ex;08xxx) : ";
 $nomor = trim(fgets(STDIN));
 $execute = send($nomor);
 print $execute;
